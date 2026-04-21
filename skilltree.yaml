@@ -4,7 +4,37 @@ install_targets:
 sources:
   local: ./skills
 dependencies:
+  cybersecurity-analyst:
+    source: local
+    path: cybersecurity-analyst
+  docker-dev:
+    source: local
+    path: docker-dev
+  fastapi-coding:
+    source: local
+    path: fastapi-coding
+  frontend-coding:
+    source: local
+    path: frontend-coding
   general-coding:
     source: local
     path: general-coding
+  kubernetes:
+    source: local
+    path: kubernetes
+  ocsf-detection-finding:
+    source: local
+    path: ocsf-detection-finding
+  python-coding:
+    source: local
+    path: python-coding
+  splunk-skill:
+    source: local
+    path: splunk-skill
+  terraform-security-review:
+    source: local
+    path: terraform-security-review
+  typescript-coding:
+    source: local
+    path: typescript-coding
 dev-dependencies: {}
