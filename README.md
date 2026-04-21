@@ -6,6 +6,7 @@ Open-source Claude Code skills for software development.
 
 | Skill | Version | Description |
 |-------|---------|-------------|
+| [cybersecurity-analyst](skills/cybersecurity-analyst/) | 0.2.0 | SOC analyst workflows: SIEM alert triage, malware/phishing/brute-force/web-attack investigation, log and network traffic analysis, threat intelligence enrichment. |
 | [frontend-coding](skills/frontend-coding/) | 1.1.0 | React, Tailwind CSS, and React Testing Library patterns. Covers component design, responsive layout, error handling, and file naming conventions. |
 | [general-coding](skills/general-coding/) | 1.0.0 | Cross-language development principles. Covers TDD workflows, clean code, test hygiene, code review, Makefile patterns, and configuration strategy. |
 | [ocsf-detection-finding](skills/ocsf-detection-finding/) | 0.1.0 | Parse, validate, and map OCSF Detection Finding events (Class 2004 v1.8.0). Covers attributes, finding_info, MITRE ATT&CK mappings, observables/evidence, and profiles. |
