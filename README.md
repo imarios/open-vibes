@@ -30,6 +30,7 @@ Infrastructure, containers, and deployment tooling.
 |-------|---------|-------------|
 | [docker-dev](skills/docker-dev/) | 1.0.0 | Docker and Docker Compose for local development. Covers dev-focused Dockerfiles, live reload, volume mounting, dependency caching, and multi-service orchestration. |
 | [kubernetes](skills/kubernetes/) | 1.0.0 | Kubernetes workflows: manifests, Helm, kubectl, k9s, Kustomize, local dev, EKS operations, observability (OTEL/Grafana LGTM), security, and networking. |
+| [splunk-skill](skills/splunk-skill/) | 1.0.0 | Splunk and SPL: cheat sheet, common pitfalls and workflows, tstats and acceleration, CIM data models, performance monitoring, security apps (InfoSec/SSE), and metrics. |
 | [terraform-security-review](skills/terraform-security-review/) | 0.1.0 | Terraform/OpenTofu security review across the lifecycle: Trivy/Checkov/KICS static analysis, OPA/Sentinel policy-as-code, secrets/drift detection, OIDC hardening, CI/CD gates. |
 
 ### Cybersecurity
