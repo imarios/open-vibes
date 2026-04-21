@@ -3,3 +3,7 @@
 *.swo
 *~
 .env
+
+# skilltree installs skills here as read-only symlinks; recreatable via `skilltree install`
+.claude/skills/
+.claude/agents/

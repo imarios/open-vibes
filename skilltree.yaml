@@ -1,0 +1,10 @@
+name: open-vibes
+install_targets:
+  - claude
+sources:
+  local: ./skills
+dependencies:
+  general-coding:
+    source: local
+    path: general-coding
+dev-dependencies: {}
