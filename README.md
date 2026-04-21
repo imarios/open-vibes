@@ -6,7 +6,7 @@
 [![last commit](https://img.shields.io/github/last-commit/imarios/open-vibes)](https://github.com/imarios/open-vibes/commits/main)
 [![skills](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/imarios/open-vibes/main/.github/badges/skills.json)](#skills)
 
-Open-source Claude Code skills for software development.
+Open-source Claude Code skills for software development, operations, and cybersecurity.
 
 ## Skills
 
