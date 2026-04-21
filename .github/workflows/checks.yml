@@ -16,3 +16,6 @@ jobs:
 
       - name: No date metadata in skill frontmatter
         run: ./scripts/check-no-date-metadata.sh
+
+      - name: Skills badge in sync
+        run: ./scripts/check-skills-badge.sh

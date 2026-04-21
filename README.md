@@ -4,7 +4,7 @@
 [![latest tag](https://img.shields.io/github/v/tag/imarios/open-vibes)](https://github.com/imarios/open-vibes/tags)
 [![license](https://img.shields.io/github/license/imarios/open-vibes)](LICENSE)
 [![last commit](https://img.shields.io/github/last-commit/imarios/open-vibes)](https://github.com/imarios/open-vibes/commits/main)
-[![skills](https://img.shields.io/badge/skills-10-blue)](#skills)
+[![skills](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/imarios/open-vibes/main/.github/badges/skills.json)](#skills)
 
 Open-source Claude Code skills for software development.
 
