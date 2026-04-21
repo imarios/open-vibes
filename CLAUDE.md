@@ -1,6 +1,6 @@
 # open-vibes
 
-Open-source Claude Code skills for software development.
+Open-source agent skills for software development, operations, and cybersecurity.
 
 ## Structure
 
