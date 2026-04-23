@@ -25,9 +25,15 @@ dependencies:
   ocsf-detection-finding:
     source: local
     path: ocsf-detection-finding
+  pyspark-coding:
+    source: local
+    path: pyspark-coding
   python-coding:
     source: local
     path: python-coding
+  rest-api:
+    source: local
+    path: rest-api
   splunk-skill:
     source: local
     path: splunk-skill

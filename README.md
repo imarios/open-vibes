@@ -18,7 +18,9 @@ General and language-specific coding standards.
 |-------|---------|-------------|
 | [general-coding](skills/general-coding/) | 1.0.0 | Cross-language development principles. Covers TDD workflows, clean code, test hygiene, code review, Makefile patterns, and configuration strategy. |
 | [python-coding](skills/python-coding/) | 1.0.0 | Python development standards. Covers Poetry dependency management, PEP 8 style, pytest testing patterns, type hints with mypy, and asyncio. |
+| [pyspark-coding](skills/pyspark-coding/) | 1.0.0 | PySpark best practices for manageability, testability, and performance. Covers DataFrame patterns, caching strategies, testing approaches, and deployment configs. |
 | [fastapi-coding](skills/fastapi-coding/) | 1.0.0 | FastAPI development standards. Covers project structure, Pydantic routing/validation, async SQLAlchemy, dependency injection, security, and pytest patterns. |
+| [rest-api](skills/rest-api/) | 1.0.0 | REST API design patterns. Covers URL structure, multi-tenancy, control/data plane separation, request/response formats, HTTP methods, authorization, and testing. |
 | [typescript-coding](skills/typescript-coding/) | 1.0.0 | TypeScript and Node.js development standards. Covers pnpm, ESM modules, strict tsconfig, Vitest testing, Zod validation, CLI tools, and async patterns. |
 | [frontend-coding](skills/frontend-coding/) | 1.1.0 | React, Tailwind CSS, and React Testing Library patterns. Covers component design, responsive layout, error handling, and file naming conventions. |
 
