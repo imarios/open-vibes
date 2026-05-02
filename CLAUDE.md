@@ -21,4 +21,4 @@ skills/
 
 ## Committing
 
-Do not commit a new or modified skill without first verifying its contents. Manually scan `SKILL.md` and every reference file for leaked product names, internal hostnames, credentials, project codenames, ticket IDs, or training-platform identifiers (e.g., LetsDefend). The automated pre-commit checks (`scripts/check-readme-skills.sh`, `scripts/check-no-date-metadata.sh`, `scripts/check-skills-badge.sh`) are necessary but not sufficient — content scrubbing is a separate manual pass.
+Do not commit a new or modified skill without first verifying its contents. Manually scan `SKILL.md` and every reference file for leaked product names, internal hostnames, credentials, project codenames, ticket IDs, or training-platform identifiers. The automated pre-commit checks (`scripts/check-readme-skills.sh`, `scripts/check-no-date-metadata.sh`, `scripts/check-skills-badge.sh`) are necessary but not sufficient — content scrubbing is a separate manual pass.
