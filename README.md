@@ -24,6 +24,14 @@ General and language-specific coding standards.
 | [typescript-coding](skills/typescript-coding/) | 1.0.0 | TypeScript and Node.js development standards. Covers pnpm, ESM modules, strict tsconfig, Vitest testing, Zod validation, CLI tools, and async patterns. |
 | [frontend-coding](skills/frontend-coding/) | 1.1.0 | React, Tailwind CSS, and React Testing Library patterns. Covers component design, responsive layout, error handling, and file naming conventions. |
 
+### Development Process
+
+How a project is planned, built, and closed out.
+
+| Skill | Version | Description |
+|-------|---------|-------------|
+| [development-methodology](skills/development-methodology/) | 4.4.0 | Phase- and cycle-driven delivery with TDD. Covers PLAN.md planning, development cycles 010–100, PatchMode for scoped fixes, FlashMode and LightningMode for autonomous runs, and a mechanical phase-done check. |
+
 ### Operational
 
 Infrastructure, containers, and deployment tooling.
@@ -44,6 +52,15 @@ SOC analysis, detection engineering, and security data schemas.
 | [cybersecurity-analyst](skills/cybersecurity-analyst/) | 0.2.0 | SOC analyst workflows: SIEM alert triage, malware/phishing/brute-force/web-attack investigation, log and network traffic analysis, threat intelligence enrichment. |
 | [ocsf-detection-finding](skills/ocsf-detection-finding/) | 0.1.0 | Parse, validate, and map OCSF Detection Finding events (Class 2004 v1.8.0). Covers attributes, finding_info, MITRE ATT&CK mappings, observables/evidence, and profiles. |
 
+## Commands
+
+Slash commands. `development-methodology` uses them to automate its code-hardening review; they also work on their own.
+
+| Command | Version | Description |
+|---------|---------|-------------|
+| [hypothesis](commands/hypothesis.md) | 1.0.1 | Form four concrete hypotheses about the latest change and verify each by tracing the code, in parallel subagents. |
+| [code-refinement-with-hypothesis](commands/code-refinement-with-hypothesis.md) | 1.0.1 | Loop `/hypothesis` and fix what it confirms until a round comes back clean. |
+
 ## Installation
 
 Copy a skill directory into your project's `.claude/skills/` directory, or use [skilltree](https://github.com/imarios/skilltree) to install them.
@@ -56,8 +73,12 @@ skilltree add general-coding
 # Or add directly without registering
 skilltree add general-coding --repo github.com/imarios/open-vibes --path skills/general-coding
 
+# Commands install the same way
+skilltree add hypothesis --repo github.com/imarios/open-vibes --path commands/hypothesis.md --type command
+
 # Manual installation
 cp -r skills/general-coding /path/to/your-project/.claude/skills/
+cp commands/hypothesis.md /path/to/your-project/.claude/commands/
 ```
 
 ## Structure
@@ -69,6 +90,11 @@ skills/<name>/
   SKILL.md              # Skill definition with metadata and routing table
   references/           # Detailed reference documents loaded on demand
     *.md
+  assets/               # Optional: templates the skill tells the agent to copy
+  scripts/              # Optional: executable helpers, with their tests
+
+commands/
+  <name>.md             # Slash command with frontmatter
 ```
 
 ## License

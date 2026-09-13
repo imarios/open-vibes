@@ -3,10 +3,18 @@ install_targets:
   - claude
 sources:
   local: ./skills
+  commands: ./commands
 dependencies:
+  code-refinement-with-hypothesis:
+    source: commands
+    path: code-refinement-with-hypothesis.md
+    type: command
   cybersecurity-analyst:
     source: local
     path: cybersecurity-analyst
+  development-methodology:
+    source: local
+    path: development-methodology
   docker-dev:
     source: local
     path: docker-dev
@@ -19,6 +27,10 @@ dependencies:
   general-coding:
     source: local
     path: general-coding
+  hypothesis:
+    source: commands
+    path: hypothesis.md
+    type: command
   kubernetes:
     source: local
     path: kubernetes

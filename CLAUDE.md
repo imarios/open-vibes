@@ -10,6 +10,10 @@ skills/
     SKILL.md              # Skill definition (frontmatter + routing table)
     references/           # Reference documents loaded on demand
       *.md
+    assets/               # Optional: templates
+    scripts/              # Optional: executable helpers and their tests
+commands/
+  <name>.md               # Slash command (frontmatter: description, version)
 ```
 
 ## Conventions
