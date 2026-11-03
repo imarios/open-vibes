@@ -54,12 +54,13 @@ SOC analysis, detection engineering, and security data schemas.
 
 ## Commands
 
-Slash commands. `development-methodology` uses them to automate its code-hardening review; they also work on their own.
+Slash commands. `development-methodology` uses the hypothesis commands to automate its code-hardening review; they also work on their own.
 
 | Command | Version | Description |
 |---------|---------|-------------|
 | [hypothesis](commands/hypothesis.md) | 1.0.1 | Form four concrete hypotheses about the latest change and verify each by tracing the code, in parallel subagents. |
 | [code-refinement-with-hypothesis](commands/code-refinement-with-hypothesis.md) | 1.0.1 | Loop `/hypothesis` and fix what it confirms until a round comes back clean. |
+| [plain-talk](commands/plain-talk.md) | 1.0.0 | Switch explanations to a conversational style: short messages, plain words, examples first, one idea at a time. |
 
 ## Installation
 

@@ -37,6 +37,10 @@ dependencies:
   ocsf-detection-finding:
     source: local
     path: ocsf-detection-finding
+  plain-talk:
+    source: commands
+    path: plain-talk.md
+    type: command
   pyspark-coding:
     source: local
     path: pyspark-coding
