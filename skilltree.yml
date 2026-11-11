@@ -59,4 +59,19 @@ dependencies:
   typescript-coding:
     source: local
     path: typescript-coding
+  explain-visually:
+    source: commands
+    version: "*"
+    path: explain-visually.md
+    type: command
+  explain-progress:
+    source: commands
+    version: "*"
+    path: explain-progress.md
+    type: command
+  explain-simply:
+    source: commands
+    version: "*"
+    path: explain-simply.md
+    type: command
 dev-dependencies: {}

@@ -61,6 +61,9 @@ Slash commands. `development-methodology` uses the hypothesis commands to automa
 | [hypothesis](commands/hypothesis.md) | 1.0.1 | Form four concrete hypotheses about the latest change and verify each by tracing the code, in parallel subagents. |
 | [code-refinement-with-hypothesis](commands/code-refinement-with-hypothesis.md) | 1.0.1 | Loop `/hypothesis` and fix what it confirms until a round comes back clean. |
 | [plain-talk](commands/plain-talk.md) | 1.0.0 | Switch explanations to a conversational style: short messages, plain words, examples first, one idea at a time. |
+| [explain-visually](commands/explain-visually.md) | 1.0.0 | Redraw the last response as a simple diagram (flow, comparison, decision tree, before/after) to make the current state or decision easy to see. |
+| [explain-progress](commands/explain-progress.md) | 1.0.0 | Re-orient on a session: the goal, a progress bar, each step's status with evidence, what's been learned, and what's next. |
+| [explain-simply](commands/explain-simply.md) | 1.0.0 | Boil the last response down to the one point that must not be missed, in 2–3 plain, jargon-free sentences. |
 
 ## Installation
 
